@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Styles/style.css">
+    <title>Login Bootstrap5</title>
+</head>
+<body>
+    <section class="container mt-5">
+        <div class="row content d-flex justify-content-center">
+            <div class="col-md-5">
+                <div class="box shadow bg-white p-4">
+                    <h6 class="mb-4 text-center fs-0 text-muted">SIGN IN TO CONTINUE</h6>
+                    <form class="mb-3">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control rounded-5" id="floatingInput" placeholder="Enter email"><i class="bi bi-envelope"></i>
+                            <label for="floatingInput">Email</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control rounded-5" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                        <div class="form-check mb-3">
+                            <div class="row">
+                                <div class="col">
+                                    <input class="form-check-input" type="checkbox" id="autoSizingCheck2">
+                                    <label for="autoSizingCheck2" class="form-check-label">Remember me</label>
+                                </div>
+                                <div class="col">
+                                    <a href="#" class="fs-0 text-muted text-decoration-none">forgot your password?</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-grid gap-5">
+                            <button class="btn btn-primary" type="button">Login</button>
+                            <a href="#" class="fs-0 text-muted text-decoration-none d-flex justify-content-center">Need to Signup?</a>
+                        </div>
+                        <div class="d-grid gap-5 mt-2">
+                            <button type="button" class="btn btn-light">Register Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+{
+  "name": "bootstrap5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kheit",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.2"
+  }
+}
